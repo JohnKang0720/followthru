@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "name": "embeddedBranch",
+    "due": 1234567898767,
+    "info": "This branch is for a more specific purpose",
+    "branches": [
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Task",
+            "due": 1234567898767
+        },
+        {
+            "id": 2,
+            "name": "Tasky Boi",
+            "due": 1234567898767
+        }
+    ]    
+}

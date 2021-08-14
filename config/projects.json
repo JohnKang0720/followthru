@@ -1,0 +1,17 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "project1",
+            "due": 1234567898767,
+            "info": "This does a thing"
+        },
+        {
+            "id": 1,
+            "name": "project2",
+            "due": 1234567898767,
+            "info": "This does a different thing"
+        }
+    ]
+
+}

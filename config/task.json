@@ -1,3 +1,6 @@
 {
-    "name": "hello"
+    "id": 1,
+    "name": "Task",
+    "due": 1234567898767,
+    "info": "This task is for doing something"
 }
