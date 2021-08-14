@@ -1,4 +1,4 @@
-const fs = require('fs'); //Remove this once database is added, I am using files as examples
+const fs = require('fs').promises; //Remove this once database is added, I am using files as examples
 
 let task;
 let connected = false;
@@ -28,21 +28,20 @@ module.exports = class taskDAO { //Used to get DBInformation
             //    .find (query)
 
             //This read a json file as an example until database is added:
-            fs.readFile('../config/task.json', (err, data) => {
-                if (err) {
-                    console.log(err);
-                    throw err;
-                }
-                let object = JSON.parse(data);
-                task = object
-            });
+            const getData = async () => { 
+                let data = await fs.readFile('../config/task.json')
+                    .catch((err) => console.error(err));
+                task = await JSON.parse(data);
+            }
+            getData();
             //Ignore all of that because it will be deleted
         } catch (e) {
             console.error(`Unable to query results ${e}`);
             return {task: null, connected, errors: [e]}
         }
+        
         try {
-            return {task, connected, errors:[]}; //Return a task if one exists
+            return {task: await task, connected, errors:[]}; //Return a task if one exists
         } catch (e) {
             console.error(`Error, ${e}`)
             return {task: null, connected, errors: [e]} //Return empty object otherwise
