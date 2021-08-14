@@ -15,6 +15,10 @@
 		14EDCF5326C7805C00DA1413 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5226C7805C00DA1413 /* ProjectCardView.swift */; };
 		14EDCF5526C7DF2700DA1413 /* DueDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5426C7DF2700DA1413 /* DueDateView.swift */; };
 		14EDCF5B26C7EAE700DA1413 /* BranchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5A26C7EAE700DA1413 /* BranchCardView.swift */; };
+		14EDCF5D26C7F9E600DA1413 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5C26C7F9E600DA1413 /* ProjectView.swift */; };
+		14EDCF5F26C7FE0C00DA1413 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5E26C7FE0C00DA1413 /* Task.swift */; };
+		14EDCF6126C7FE1B00DA1413 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF6026C7FE1B00DA1413 /* Branch.swift */; };
+		14EDCF6326C7FE2600DA1413 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF6226C7FE2600DA1413 /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		14EDCF5226C7805C00DA1413 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		14EDCF5426C7DF2700DA1413 /* DueDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateView.swift; sourceTree = "<group>"; };
 		14EDCF5A26C7EAE700DA1413 /* BranchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchCardView.swift; sourceTree = "<group>"; };
+		14EDCF5C26C7F9E600DA1413 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		14EDCF5E26C7FE0C00DA1413 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		14EDCF6026C7FE1B00DA1413 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		14EDCF6226C7FE2600DA1413 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,9 @@
 		14EDCF2E26C70F9D00DA1413 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				14EDCF5E26C7FE0C00DA1413 /* Task.swift */,
+				14EDCF6026C7FE1B00DA1413 /* Branch.swift */,
+				14EDCF6226C7FE2600DA1413 /* Project.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				14EDCF5026C7801B00DA1413 /* BrowseView.swift */,
+				14EDCF5C26C7F9E600DA1413 /* ProjectView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -190,10 +202,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EDCF5F26C7FE0C00DA1413 /* Task.swift in Sources */,
+				14EDCF6126C7FE1B00DA1413 /* Branch.swift in Sources */,
 				14EDCF5526C7DF2700DA1413 /* DueDateView.swift in Sources */,
+				14EDCF6326C7FE2600DA1413 /* Project.swift in Sources */,
 				14EDCF5326C7805C00DA1413 /* ProjectCardView.swift in Sources */,
 				14EDCF5B26C7EAE700DA1413 /* BranchCardView.swift in Sources */,
 				14EDCF2126C70F3900DA1413 /* ContentView.swift in Sources */,
+				14EDCF5D26C7F9E600DA1413 /* ProjectView.swift in Sources */,
 				14EDCF5126C7801B00DA1413 /* BrowseView.swift in Sources */,
 				14EDCF1F26C70F3900DA1413 /* ULHacksAppApp.swift in Sources */,
 			);

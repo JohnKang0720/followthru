@@ -11,7 +11,12 @@ struct BrowseView: View {
     var body: some View {
         ScrollView{
             VStack {
-            ProjectCardView()
+                NavigationLink(
+                    destination: ProjectView(projectName: "Web Dev Server"),
+                    label: {
+                        ProjectCardView()
+                            .foregroundColor(Color.black)
+                    })
             ProjectCardView()
             }
         }
