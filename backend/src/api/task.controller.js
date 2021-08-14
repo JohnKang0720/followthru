@@ -3,7 +3,7 @@ module.exports = class taskController { //Pulls user data and sends to DAO
     static async apiGetTask(req, res, next){
         //Get request route function
         const id = req.query.id; //Get id from request
-        const {task} = await taskDAO.getTask({id}) //Get task info from DAO
+        const {task, connected, errors} = await taskDAO.getTask({id}) //Get task info from DAO
         if (task){
             var success = true;
         }else{
@@ -11,8 +11,8 @@ module.exports = class taskController { //Pulls user data and sends to DAO
         }
         let response = {
             success: success,
-            //connected: true,
-            //errors: [],
+            connected: connected,
+            errors: errors,
             //status: 200,
             response:  {
                 task: task
