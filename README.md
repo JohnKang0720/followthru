@@ -1,4 +1,4 @@
-# followthru <img src="https://user-images.githubusercontent.com/68486874/129448498-27ce6ef2-38ca-48fd-9853-5e3c2e82aaa5.png" alt="followThruLogo" width="20"/>
+# followthru <img src="https://user-images.githubusercontent.com/68486874/129448498-27ce6ef2-38ca-48fd-9853-5e3c2e82aaa5.png" alt="followThruLogo" width="40"/>
 Github Repository for our project submission to ULHacks
 
 ## Team Members:
