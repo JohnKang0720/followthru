@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">followthru-android</string>
+    <string name="app_name">Hermetius</string>
+    <string name="database_name">HermetiusDB</string>
+
+    <string name="send">Send</string>
+    <string name="date">date</string>
+    <string name="message_field">Message Field</string>
+    <string name="time">Time</string>
+    <string name="name">Name</string>
+    <string name="profile">Profile</string>
+    <string name="date_format">yyyy-MM-dd</string>
+
+    <string name="sign_up">Sign up</string>
+    <string name="register_username_hint">Enter new username</string>
+    <string name="register_password_hint">Enter new password</string>
+    <string name="login_username_hint">Enter your username</string>
+    <string name="login_password_hint">Enter your password</string>
+
+    <string name="chat_hint">Enter Message</string>
+    <string name="sign_in">Sign in</string>
 </resources>
