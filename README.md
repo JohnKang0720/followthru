@@ -49,6 +49,9 @@ Written in
 
 ## Backend
 * Authorize Users
+    1. Retrieve token from browser storage
+    1. Verify JWT_SECRET in process.env
+    1. Authorize (next() function)
 * Send project information
 * Accept project information 
 
