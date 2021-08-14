@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "name": "project1",
+    "due": 1234567898767,
+    "info": "This does a thing",
+    "branches": [
+        {
+            "id": 1,
+            "name": "headBranch1",
+            "due": 1234567898767
+        },
+        {
+            "id": 2,
+            "name": "headBranch2",
+            "due": 1234567898767
+        }
+    ]
+}
