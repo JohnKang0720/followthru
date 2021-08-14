@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "connected": true,
+    "errors": [],
+    "status": 200,
+    "response":  {
+        "info": "This section would be where the actual response is contained. See other .json files for reference" 
+    }
+  }
