@@ -13,8 +13,6 @@
 		14EDCF2626C70F4200DA1413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14EDCF2526C70F4200DA1413 /* Preview Assets.xcassets */; };
 		14EDCF5126C7801B00DA1413 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5026C7801B00DA1413 /* BrowseView.swift */; };
 		14EDCF5326C7805C00DA1413 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5226C7805C00DA1413 /* ProjectCardView.swift */; };
-		14EDCF5526C7DF2700DA1413 /* DueDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5426C7DF2700DA1413 /* DueDateView.swift */; };
-		14EDCF5B26C7EAE700DA1413 /* BranchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EDCF5A26C7EAE700DA1413 /* BranchCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		14EDCF2726C70F4200DA1413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14EDCF5026C7801B00DA1413 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		14EDCF5226C7805C00DA1413 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
-		14EDCF5426C7DF2700DA1413 /* DueDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueDateView.swift; sourceTree = "<group>"; };
-		14EDCF5A26C7EAE700DA1413 /* BranchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				14EDCF5226C7805C00DA1413 /* ProjectCardView.swift */,
-				14EDCF5426C7DF2700DA1413 /* DueDateView.swift */,
-				14EDCF5A26C7EAE700DA1413 /* BranchCardView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -190,9 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14EDCF5526C7DF2700DA1413 /* DueDateView.swift in Sources */,
 				14EDCF5326C7805C00DA1413 /* ProjectCardView.swift in Sources */,
-				14EDCF5B26C7EAE700DA1413 /* BranchCardView.swift in Sources */,
 				14EDCF2126C70F3900DA1413 /* ContentView.swift in Sources */,
 				14EDCF5126C7801B00DA1413 /* BrowseView.swift in Sources */,
 				14EDCF1F26C70F3900DA1413 /* ULHacksAppApp.swift in Sources */,

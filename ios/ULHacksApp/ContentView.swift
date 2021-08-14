@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-                BrowseView()
+                Text("Hello 1")
             }
                 .tabItem {
                     Image(systemName: "book.fill")
